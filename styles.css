@@ -1,3 +1,4 @@
+/*desktop*/
 @media screen and (min-width: 1920px) {
 	body {
 		width: 1920px;
@@ -6,17 +7,200 @@
 }
 
 html {
-	background-color: #EDE9E8;
+	background-color: #DBDBD9;
 }
 
 body {
-	position: relative;
-	overflow-x: hidden;
-	margin: 0 auto;
-
-	background-image: url(source/bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 3737px;
-	z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+	height: 1080px;
+    background-color: #73FFE3;
+    display: flex;
+    align-items: stretch;
 }
+
+p {
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #3A3642;
+}
+
+.me-img {
+    position: absolute;
+    top: 0;
+    width: 676px;
+    height: auto;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex: 50%;
+}
+
+.text-content {
+    flex: 50%;
+}
+
+.hello-text {
+    position: absolute;
+    width: 540px;
+    height: 133px;
+    left: 885px;
+    top: 90px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 142.52%;
+    /* or 71px */
+
+    letter-spacing: 0.2em;
+
+    color: #3A3642;
+}
+
+.me-text {
+    position: absolute;
+    width: 972px;
+    height: 391px;
+    left: 885px;
+    top: 176px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    /* or 120% */
+
+    letter-spacing: 0.2em;
+
+    color: #3A3642;
+}
+
+.about-text {
+    position: absolute;
+    width: 812px;
+    height: 306px;
+    left: 885px;
+    top: 350px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    /* or 200% */
+
+    letter-spacing: 0.1em;
+
+    color: #3A3642;
+}
+
+.project-text {
+    position: absolute;
+    width: 951px;
+    height: 159px;
+    left: 885px;
+    top: 678px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    /* or 32px */
+
+    letter-spacing: 0.1em;
+
+    color: #3A3642;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3A3642;
+    text-decoration: none;
+}
+
+.custom-underline {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    /* or 32px */
+
+    letter-spacing: 0.1em;
+
+    color: #3A3642;
+}
+
+.custom-underline::after {
+    content: "";
+    position: absolute;
+}
+
+.project-link .custom-underline::after {
+    top: 42px;
+    height: 2px !important;
+    width: 35%;
+    left: 2px;
+    background-color: #3A3642;
+    transition: 0.4s ease-out all .1s;
+  }
+  
+.project-link:hover .custom-underline::after {
+    width: 91%;
+    left: 2px;
+    transition: 0.5s ease all;
+}
+
+.project-link {
+    position: absolute;
+    width: 258px;
+    height: 121px;
+    left: 1210px;
+    top: 678px;
+}
+
+.cv-image {
+    position: absolute;
+    width: 61px;
+    height: 81px;
+    left: 1697px;
+    top: 790px;
+}
+
+/*mobile*/
