@@ -2,12 +2,12 @@
 @media screen and (min-width: 1920px) {
 	body {
 		width: 1920px;
-		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+		box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.5);
 	}
 }
 
 html {
-	background-color: #DBDBD9;
+	background-color: #73FFE3;
 }
 
 body {
@@ -18,15 +18,9 @@ body {
     left: 0;
     right: 0;
 	height: 1080px;
-    background-color: #73FFE3;
+    background-color: #3A3642;
     display: flex;
     align-items: stretch;
-}
-
-p {
-    font-family: 'Inter';
-    font-weight: bold;
-    color: #3A3642;
 }
 
 .me-img {
@@ -34,6 +28,7 @@ p {
     top: 0;
     width: 676px;
     height: auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -74,7 +69,7 @@ p {
 
     letter-spacing: 0.2em;
 
-    color: #3A3642;
+    color: #73FFE3;
 }
 
 .me-text {
@@ -93,7 +88,11 @@ p {
 
     letter-spacing: 0.2em;
 
-    color: #3A3642;
+    color: #AB73FF;
+}
+
+.me-text-2 {
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .about-text {
@@ -112,7 +111,7 @@ p {
 
     letter-spacing: 0.1em;
 
-    color: #3A3642;
+    color: #73FFE3;
 }
 
 .project-text {
@@ -131,7 +130,7 @@ p {
 
     letter-spacing: 0.1em;
 
-    color: #3A3642;
+    color: #73FFE3;
 }
 
 a {
@@ -139,7 +138,7 @@ a {
 }
 
 a:hover {
-    color: #3A3642;
+    color: #73FFE3;
     text-decoration: none;
 }
 
@@ -164,7 +163,7 @@ a:hover {
 
     letter-spacing: 0.1em;
 
-    color: #3A3642;
+    color: #73FFE3;
 }
 
 .custom-underline::after {
@@ -177,7 +176,7 @@ a:hover {
     height: 2px !important;
     width: 35%;
     left: 2px;
-    background-color: #3A3642;
+    background-color: #73FFE3;
     transition: 0.4s ease-out all .1s;
   }
   
@@ -199,7 +198,7 @@ a:hover {
     position: absolute;
     width: 61px;
     height: 81px;
-    left: 1697px;
+    left: 894px;
     top: 790px;
 }
 
